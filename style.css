@@ -101,10 +101,10 @@ i.fa-lock{
 }
 
 #secondBox{
-    padding-bottom: 69.12px;
+    padding-bottom: 64px;
     height: 46vh;
     /* border: 1px solid white; */
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 
 #insideSecondBox{
@@ -118,7 +118,7 @@ i.fa-lock{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 38vh;
+    height: 325px;
     margin-bottom: 72px;
 }
 
@@ -148,7 +148,7 @@ i.fa-lock{
     grid-column-gap: 9px;
     grid-row-gap: 8px;
     width: 847px;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .smallBoxes{
@@ -237,11 +237,17 @@ i.fa-lock{
     padding-left: 50px;
 }
 
+/* #helpIcon{
+    position: absolute;
+    bottom: 4px;
+    right: 14px;
+} */
+
 #faHelpIcon{
     border: 1px solid rgba(255,255,255,0.15);
     line-height: 27px;
     width: 27px;
-    font-size: 9px;
+    font-size: 3px;
     text-align: center;
     border-radius: 20px;
     background-color: rgba(255,255,255,0.1);
@@ -255,3 +261,25 @@ i.fa-lock{
     left: 20px;
     top: 22px;
 }
+
+@media (max-height:860px){
+    #insideSecondBox{
+        height: 253px;
+    }
+    #secondBox{
+        height: 325px;
+    }
+}
+
+#paidVersionText{
+    padding-right: 10px;
+}
+
+/* FUllheight - insideSecondBoxheight*/
+/* 3456       - 2705.10  0.7827*/ 
+/* 2592       - 1911.86  */
+/* 1728       - 1118.57*/
+/* 1296       - 721.931*/
+/* 1152       - 589.717*/
+/* 1080       - 523.609*/
+/* 960       -  413.431*/
