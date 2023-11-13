@@ -178,7 +178,7 @@ i.fa-lock{
 
 #thirdsSecondBox{
     /* border: 1px solid white; */
-    background-color: rgb(32, 33, 35);
+    background-color: rgb(64, 65, 79);
     display: flex;
     justify-content: center;
     border-radius: 13.5px;
@@ -193,7 +193,7 @@ i.fa-lock{
 #ask{
     border: none;
     height: 27px;
-    background-color: rgb(32, 33, 35);
+    background-color: rgb(64, 65, 79);
     padding: 18px 5px 18px 5px;
     border-radius: 13.5px;
     resize: none;
